@@ -78,12 +78,12 @@ $ echo $PATH
 ```
 
 ### Installatie
-Run het `setup.py` bestand vanuit de `famous-quotes` map:
+Roep het `setup.py` bestand aan vanuit de `famous-quotes` map:
 ```
 $ python3 setup.py
 ```
 
-Daarna ga je aan de slag om je eerste citaat weer te geven:
+Ga je daarna aan de slag om je eerste citaat weer te geven:
 ```
 $ fq -s
 ```
