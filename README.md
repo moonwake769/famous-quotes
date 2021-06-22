@@ -6,7 +6,6 @@
 ![Issues Open](https://img.shields.io/github/issues/moonwake769/famous-quotes?style=for-the-badge&logo=github)
 ![Issues Close](https://img.shields.io/github/issues-closed/moonwake769/famous-quotes?style=for-the-badge&logo=github)
 ![Close PRs](https://img.shields.io/github/issues-pr-closed/moonwake769/famous-quotes?style=for-the-badge&logo=github)
-- - -
 <img src="https://ForTheBadge.com/images/badges/made-with-python.svg" />
 
 # Famous Quotes 
