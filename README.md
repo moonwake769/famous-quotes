@@ -18,7 +18,7 @@
 
 - - - -
 ## English 
-#### About the programme
+### About the programme
 With the assistance of this programme, you can not only display a random quote of a celebrity you admire, but you can also add your own famous quotes. After you added it, is's automatically saved. Then, you can call the programme and you'll have a random quote displayed to you. 
 
 ### Prerequisites
