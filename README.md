@@ -34,7 +34,7 @@ With the assistance of this programme, you can not only display a random quote o
 Your PATH variable contains at least of `/usr/local/bin`
 ```
 $ echo $PATH
-/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
 
 ### Installation
@@ -83,7 +83,7 @@ Met behulp van dit programma kan je een citaat van een beroemdheid die je bewond
 Je PATH variabele bestaat tenminste uit `/usr/local/bin`
 ```
 $ echo $PATH
-/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
 
 ### Installatie
@@ -133,7 +133,7 @@ $ fq -d
 你的 PATH 变量由至少 `/usr/local/bin` 组成。
 ```
 $ echo $PATH
-/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
 
 ### 建制
