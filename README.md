@@ -1,4 +1,13 @@
-[![Hello programmer Welcome to my profile](https://img.shields.io/badge/Hello, Programmer!-Welcome-orange.svg?style=flat&logo=github)](https://github.com/moonwake769)
+[![Hello programmer Welcome to my profile](https://img.shields.io/badge/Hello,_Programmer!-Welcome-orange.svg?style=for-the-badge&logo=github)](https://github.com/moonwake769)
+[![followers](https://img.shields.io/github/followers/moonwake769?style=for-the-badge)](https://github.com/moonwake769)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/moonwake769/famous-quotes?style=for-the-badge&logo=github)
+![Forks](https://img.shields.io/github/forks/moonwake769/famous-quotes?style=for-the-badge&logo=github)
+![Issues Open](https://img.shields.io/github/issues/moonwake769/famous-quotes?style=for-the-badge&logo=github)
+![Issues Close](https://img.shields.io/github/issues-closed/moonwake769/famous-quotes?style=for-the-badge&logo=github)
+![Close PRs](https://img.shields.io/github/issues-pr-closed/moonwake769/famous-quotes?style=for-the-badge&logo=github)
+- - -
+<img src="https://ForTheBadge.com/images/badges/made-with-python.svg" />
 
 # Famous Quotes 
 
