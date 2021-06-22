@@ -42,8 +42,8 @@ def update_data(new_data):
 
 def add_data():
     """Get a name and a quote of a person from a user."""
-    name = input('\n' + "Typ de naam van de persoon: ")
-    quote = input("Typ de quote van deze persoon: ")
+    name = input('\n' + "Type in the name of the person: ")
+    quote = input("Type in the quote of the person: ")
 
     data = read_data()
 
