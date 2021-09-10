@@ -18,7 +18,16 @@ PATH =
 filename = f'{PATH}/famous-quotes/data.json'
 
 def read_data():
-    """Get data with quotes from data.json."""
+    """ Get data with quotes from data.json.
+
+    Try to open the file with data and safely evaluate it from string
+    to Python dictionary using ast.literal_eval()-method.
+
+    Except if the file not found then create the file with
+    empty json-template to be uploaded in.
+
+    Return data.
+    """
     try:
         with open(filename, 'r', encoding='utf-8') as data_json:
             data = ast.literal_eval(data_json.read())
@@ -31,7 +40,13 @@ def read_data():
 
 
 def update_data(new_data):
-    """Write all quotes to data.json."""
+    """ Write all quotes to data.json.
+
+    Try to open data file and dump new data to it.
+
+    Except if the file not found then let the user know that
+    file can't be found.
+    """
     try:
         with open(filename, 'w') as data_json:
             json.dump(new_data, data_json, indent=4)
