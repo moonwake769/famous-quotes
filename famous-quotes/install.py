@@ -45,6 +45,8 @@ class Setup():
 
     def copy_to_PATH(self):
         """Copy the files to $PATH in order to freely run the fq command."""
+        # Setup the permissions.
+        os.system("chmod 744 -R $(pwd)")
         # Copy famous-quotes folder.
         os.system(f"cp -r $(pwd) {self.PATH}")
         # Copy fq file.
