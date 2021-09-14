@@ -7,11 +7,26 @@ class Setup():
     def __init__(self):
         """Initialize setup attributes."""
         # Getting the path where the programme will stay.
-        filename_1 = "setup.txt"
-        with open(filename_1, 'r') as path:
-            path = str(path.read()).strip()
+        #filename_1 = "path.txt"
+        #with open(filename_1, 'r') as path:
+        #    path = str(path.read()).strip()
+        # Defining list of $PATH values.
+        PATH_values = ["/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin"]
 
-        self.path = path
+        try:
+            self.path = os.environ.get("PATH") # get $PATH variable
+        except:
+            print("Access to PATH variable is denied.")
+        else:
+            # Assigning one of $PATH value to our self.PATH
+            for value in PATH_values:
+                if value in self.path:
+                    self.path = value
+                    break
+                else:
+                    print("PATH variable is not defined.")
+                    exit()
+        
 
         # Assigning the path in main.py.
         filename_2 = 'main.py'
@@ -19,7 +34,7 @@ class Setup():
             lines = main_py.readlines()
             for i, line in enumerate(lines):
                 if line.startswith('PATH'):
-                    lines[i] = lines[i].strip() + ' ' + f"\"{path}\"\n"
+                    lines[i] = lines[i].strip() + ' ' + f"\"{self.path}\"\n"
             main_py.seek(0)
             for line in lines:
                 main_py.write(line)
@@ -31,7 +46,7 @@ class Setup():
             lines = fq.readlines()
             for i, line in enumerate(lines):
                 if line.startswith('path'):
-                    lines[i] = lines[i].strip() + f"\"{path}\"\n"
+                    lines[i] = lines[i].strip() + f"\"{self.path}\"\n"
             fq.seek(0)
             for line in lines:
                 fq.write(line)
