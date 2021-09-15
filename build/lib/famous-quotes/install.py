@@ -2,7 +2,7 @@
 
 import os
 
-class Install():
+class Setup():
     """A class to represent setup."""
     def __init__(self):
         """Initialize setup attributes."""
@@ -53,7 +53,7 @@ class Install():
         os.system(f"cp fq {self.PATH}")
 
 def main():
-    Install().copy_to_PATH()
+    Setup().copy_to_PATH()
     print("\n\nThe proramme is successfully installed.\n\n")
     # Display the usage.
     os.system("fq -h")

@@ -1,4 +1,16 @@
 from distutils.core import setup
+from setuptools import setup
+from setuptools.command.develop import develop
+from setuptools.command.install import install
+from subprocess import check_call
+
+class PreInstallCommand(install):
+    """Pre-installation for installation mode."""
+    def run(self):
+        print("Running script.")
+        check_call("python3 famous-quotes/install.py".split())
+        install.run(self)
+
 setup(
   name = 'famous-quotes',
   packages = ['famous-quotes'],
@@ -11,6 +23,7 @@ setup(
   download_url = 'https://github.com/moonwake769/famous-quotes/archive/refs/tags/v0.2.7-alpha.tar.gz',
   keywords = ['quotes', 'python', 'cli', 'famous people'],   # Keywords that define your package best
   package_data = {"famous-quotes" : ["*"]},
+  cmdclass={'install': PostInstallCommand,},
   install_requires=[],
   include_package_data = True,
   classifiers=[
