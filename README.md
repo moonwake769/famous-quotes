@@ -40,7 +40,7 @@ echo $PATH
 `
 
 ### Installation
-Call the `install.py` file from the `famous-quotes` folder:
+Copy and run this commands from the `terminal`:
 ```
 git clone https://github.com/moonwake769/famous-quotes.git
 cd famous-quotes/famous-quotes
@@ -93,7 +93,7 @@ echo $PATH
 `
 
 ### Installatie
-Roep het `install.py` bestand aan vanuit de `famous-quotes` map:
+Kopieer and run deze commandos vanuit je `terminal`:
 ```
 git clone https://github.com/moonwake769/famous-quotes.git
 cd famous-quotes/famous-quotes
@@ -147,7 +147,7 @@ echo $PATH
 `
 
 ### 建制
-调用这个 `install.py` 文件从 `famous-quotes` 文件夹:
+从终端复制并运行以下命令：
 ```
 git clone https://github.com/moonwake769/famous-quotes.git
 cd famous-quotes/famous-quotes
