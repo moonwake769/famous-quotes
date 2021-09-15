@@ -17,18 +17,21 @@ Help()
 ShowQuote()
 {
     # Show a quote
+    chmod 744 $path/famous-quotes/main.py
     $path/famous-quotes/main.py -s
 }
 
 AddQuote()
 {
     # Add a quote
+    chmod 744 $path/famous-quotes/main.py
     $path/famous-quotes/main.py -a
 }
 
 RemoveQuote()
 {
     # Remove a quote
+    chmod 744 $path/famous-quotes/main.py
     $path/famous-quotes/main.py -r
 
 }
@@ -39,6 +42,7 @@ RemoveQuote()
 DeleteFamousQuotes()
 {
     # Delete the programme
+    chmod 744 $path/famous-quotes
     rm -fr $path/famous-quotes
 }
 
