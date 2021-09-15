@@ -9,6 +9,8 @@
 ----
 # Famous Quotes 
 
+![Screenshot](Demo.png)
+
 ### 1. [English](#english "Goto english")
  - [About the programme](#about-the-programme "Goto about-the-programme")
  - [Prerequisites](#prerequisites "Goto prerequisites")
