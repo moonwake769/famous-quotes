@@ -3,3 +3,11 @@ venv
 
 # MacOS specific
 .DS_Store
+
+# PIP tools
+MANIFEST
+MANIFEST.in
+dist
+setup.cfg
+setup.py
+famous-quotes/__init__.py
