@@ -28,7 +28,7 @@
 - - - -
 ## English 
 ### About the programme
-With the assistance of this programme, you can not only display a random quote of a celebrity you admire, but you can also add your own famous quotes. After you added it, is's automatically saved. Then, you can call the programme and you'll have a random quote displayed to you. 
+With the assistance of this programme, you can not only display a random quote of a celebrity you admire, but you can also add your own famous quotes. After you added it, is's automatically saved. Then, you can call the programme and you'll have a random quote displayed to you. *Note: officially support MacOS and Linux systems*
 
 ### Prerequisites
 Your PATH variable contains at least of `/usr/local/bin`
@@ -82,7 +82,7 @@ fq -d
 - - - -
 ## Nederlands
 ### Over het programma
-Met behulp van dit programma kan je een citaat van een beroemdheid die je bewondert niet alleen weergeven, maar ook je eigen favoriete citaten hieraan toevoegen. Nadat je dit hebt toegevoegd, wordt het automatisch opgeslagen. Vervolgens kan je het programma aanroepen en wordt er een willekeurige citaat aan jou weergegeven. 
+Met behulp van dit programma kan je een citaat van een beroemdheid die je bewondert niet alleen weergeven, maar ook je eigen favoriete citaten hieraan toevoegen. Nadat je dit hebt toegevoegd, wordt het automatisch opgeslagen. Vervolgens kan je het programma aanroepen en wordt er een willekeurige citaat aan jou weergegeven. *Noot: officieel ondersteunt MacOS en Linux systemen* 
 
 ### In de eerste plaats vereist
 Je PATH variabele bestaat tenminste uit `/usr/local/bin`
@@ -137,7 +137,7 @@ fq -d
 # 简体中文 
 
 ### 关于这个计算机程序
-在计算机程序的帮助下，你不仅可以随机的显示你所赞赏名人的名言，还可以添加你自己的名言。添加后，将自动保存。然后，你可以调用这个计算机程序，你会有一个随机名言显示给你。 
+在计算机程序的帮助下，你不仅可以随机的显示你所赞赏名人的名言，还可以添加你自己的名言。添加后，将自动保存。然后，你可以调用这个计算机程序，你会有一个随机名言显示给你。 *注意：正式支持MacOS和Linux系统*
 
 ### 先决条件
 你的 PATH 变量由至少 `/usr/local/bin` 组成。
