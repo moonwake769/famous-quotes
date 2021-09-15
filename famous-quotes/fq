@@ -1,6 +1,6 @@
 #! /bin/bash
 
-path="/usr/local/bin""/usr/local/bin"
+path=
 
 ############################################################
 # Help                                                     #
