@@ -45,6 +45,7 @@ Copy and run this commands from the `terminal`:
 git clone https://github.com/moonwake769/famous-quotes.git
 cd famous-quotes/famous-quotes
 python3 install.py
+cd
 ```
 
 Get it to work in order to display a first random quote:
@@ -98,6 +99,7 @@ Kopieer and run deze commandos vanuit je `terminal`:
 git clone https://github.com/moonwake769/famous-quotes.git
 cd famous-quotes/famous-quotes
 python3 install.py
+cd
 ```
 
 Ga je daarna aan de slag om je eerste citaat weer te geven:
@@ -152,6 +154,7 @@ echo $PATH
 git clone https://github.com/moonwake769/famous-quotes.git
 cd famous-quotes/famous-quotes
 python3 install.py
+cd
 ```
 
 调用这个指令为了第一次显示一个随机的名言:
