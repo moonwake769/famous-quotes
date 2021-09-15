@@ -40,7 +40,7 @@ echo $PATH
 `
 
 ### Installation
-Copy and run this commands from the `terminal`:
+Copy and run this line of commands from the `terminal`:
 ```
 git clone https://github.com/moonwake769/famous-quotes.git && cd famous-quotes/famous-quotes && python3 install.py && cd
 ```
@@ -91,7 +91,7 @@ echo $PATH
 `
 
 ### Installatie
-Kopieer and run deze commandos vanuit je `terminal`:
+Kopieer and run deze regel van commandos vanuit je `terminal`:
 ```
 git clone https://github.com/moonwake769/famous-quotes.git && cd famous-quotes/famous-quotes && python3 install.py && cd
 ```
