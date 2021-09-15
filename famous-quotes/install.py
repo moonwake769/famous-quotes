@@ -10,14 +10,14 @@ class Install():
     """
     def __init__(self):
         """Initialize setup attributes."""
-        PATH_values = ["/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin"]
+        self.PATH_values = ["/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin"]
         try:
             self.PATH = os.environ.get("PATH") # get $PATH variable
         except:
             print("Access to PATH variable is denied.")
         else:
             # Assigning one of $PATH value to our self.PATH
-            for value in PATH_values:
+            for value in self.PATH_values:
                 if value in self.PATH:
                     self.PATH = value
                     break
@@ -29,8 +29,10 @@ class Install():
         with open("main.py", 'r+') as main_py: # r+ does the work of rw
             lines = main_py.readlines()
             for i, line in enumerate(lines):
-                if line.startswith('PATH'):
+                if line.startswith('PATH') and not line.startswith(f"PATH = \"{self.PATH}\""):
                     lines[i] = lines[i].strip() + ' ' + f"\"{self.PATH}\"\n"
+                else:
+                    continue
             main_py.seek(0)
             for line in lines:
                 main_py.write(line)
@@ -40,7 +42,7 @@ class Install():
         with open("fq", 'r+') as fq: # r+ does the work of rw
             lines = fq.readlines()
             for i, line in enumerate(lines):
-                if line.startswith('path'):
+                if line.startswith('path') and not line.startswith(f"path=\"{self.PATH}\""):
                     lines[i] = lines[i].strip() + f"\"{self.PATH}\"\n"
             fq.seek(0)
             for line in lines:

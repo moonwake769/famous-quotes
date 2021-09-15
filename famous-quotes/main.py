@@ -14,7 +14,7 @@ import ast
 import json
 import random
 
-PATH = 
+PATH =
 filename = f'{PATH}/famous-quotes/data.json'
 
 def read_data():
