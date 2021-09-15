@@ -8,6 +8,7 @@ path=
 Help()
 {
     # Display Help
+    chmod 744 $path/famous-quotes/main.py
     $path/famous-quotes/main.py -h
 }
 
