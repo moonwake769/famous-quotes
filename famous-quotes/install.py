@@ -51,19 +51,17 @@ class Install():
 
     def copy_to_PATH(self):
         """Copy the files to $PATH in order to freely run the fq command."""
-        # Setup the permissions.
-        os.system("chmod -R 744 $(pwd)")
         # Copy famous-quotes folder.
-        os.system(f"cp -r $(pwd) {self.PATH}")
+        os.system(f"sudo cp -r $(pwd) {self.PATH}")
         # Copy fq file.
-        os.system(f"cp fq {self.PATH}")
-
-def main():
-    Install().copy_to_PATH()
-    print("\n\nThe proramme is successfully installed.\n\n")
-    # Display the usage.
-    os.system("fq -h")
-
+        os.system(f"sudo cp fq {self.PATH}")
 
 if __name__ == "__main__":
-    main()
+    # Setup the permissions.
+    os.system("chmod -R 744 $(pwd)")
+    Install().copy_to_PATH()
+    print("\n\nThe proramme is successfully installed.\n\n")
+    # Setup the owners.
+    os.system(f"cd {Install().PATH} && sudo chown -R $USER famous-quotes && sudo chown $USER fq")
+    # Display the usage.
+    os.system("fq -h")
