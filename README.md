@@ -33,45 +33,49 @@ With the assistance of this programme, you can not only display a random quote o
 ### Prerequisites
 Your PATH variable contains at least of `/usr/local/bin`
 ```
-$ echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+echo $PATH
 ```
+`
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+`
 
 ### Installation
-Call the `setup.py` file from the `famous-quotes` folder:
+Call the `install.py` file from the `famous-quotes` folder:
 ```
-$ python3 setup.py
+git clone https://github.com/moonwake769/famous-quotes.git
+cd famous-quotes/famous-quotes
+python3 install.py
 ```
 
 Get it to work in order to display a first random quote:
 ```
-$ fq -s
+fq -s
 ```
 
 ### Usage
 To call the programme (does nothing):
 ```
-$ fq
+fq
 ```
 
 To look at the usage and the optional arguments:
 ```
-$ fq -h
+fq -h
 ```
 
 Display a random quote:
 ```
-$ fq -s
+fq -s
 ```
 
 Add a new quote:
 ```
-$ fq -a
+fq -a
 ```
 
 To delete the programme:
 ```
-$ fq -d
+fq -d
 ```
 
 - - - -
@@ -82,45 +86,49 @@ Met behulp van dit programma kan je een citaat van een beroemdheid die je bewond
 ### In de eerste plaats vereist
 Je PATH variabele bestaat tenminste uit `/usr/local/bin`
 ```
-$ echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+echo $PATH
 ```
+`
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+`
 
 ### Installatie
-Roep het `setup.py` bestand aan vanuit de `famous-quotes` map:
+Roep het `install.py` bestand aan vanuit de `famous-quotes` map:
 ```
-$ python3 setup.py
+git clone https://github.com/moonwake769/famous-quotes.git
+cd famous-quotes/famous-quotes
+python3 install.py
 ```
 
 Ga je daarna aan de slag om je eerste citaat weer te geven:
 ```
-$ fq -s
+fq -s
 ```
 
 ### Gebruik
 Het programma aan te roepen (doet niks):
 ```
-$ fq
+fq
 ```
 
 Het gebruik en de optionele arguments te bekijken:
 ```
-$ fq -h
+fq -h
 ```
 
 Geef een willekeurig citaat weer:
 ```
-$ fq -s
+fq -s
 ```
 
 Voeg een nieuw citaat toe en sla het op:
 ```
-$ fq -a
+fq -a
 ```
 
 Het programma te verwijderen:
 ```
-$ fq -d
+fq -d
 ```
 
 - - - -
@@ -132,45 +140,49 @@ $ fq -d
 ### 先决条件
 你的 PATH 变量由至少 `/usr/local/bin` 组成。
 ```
-$ echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+echo $PATH
 ```
+`
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+`
 
 ### 建制
-调用这个 `setup.py` 文件从 `famous-quotes` 文件夹:
+调用这个 `install.py` 文件从 `famous-quotes` 文件夹:
 ```
-$ python3 setup.py
+git clone https://github.com/moonwake769/famous-quotes.git
+cd famous-quotes/famous-quotes
+python3 install.py
 ```
 
 调用这个指令为了第一次显示一个随机的名言:
 ```
-$ fq -s
+fq -s
 ```
 
 ### 使用
 调用这个计算机程序 (没做什么):
 ```
-$ fq
+fq
 ```
 
 瞥一眼使用与可以选择的 arguments:
 ```
-$ fq -h
+fq -h
 ```
 
 显示随机的名言:
 ```
-$ fq -s
+fq -s
 ```
 
 添加一个名言:
 ```
-$ fq -a
+fq -a
 ```
 
 删除计算机程序:
 ```
-$ fq -d
+fq -d
 ```
 - - - -
 ## `Licence`
