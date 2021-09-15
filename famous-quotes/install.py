@@ -3,7 +3,11 @@
 import os
 
 class Install():
-    """A class to represent setup."""
+    """A class to represent setup.
+        
+        The purpose of it is to properly install the programme, 
+    through adding the source code to the system's $PATH.
+    """
     def __init__(self):
         """Initialize setup attributes."""
         PATH_values = ["/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin"]
