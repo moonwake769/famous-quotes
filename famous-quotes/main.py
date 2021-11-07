@@ -17,7 +17,7 @@ import random
 PATH =
 filename = f'{PATH}/famous-quotes/data.json'
 
-def read_data():
+def read_data() -> list:
     """ Get data with quotes from data.json.
 
     Try to open the file with data and safely evaluate it from string
